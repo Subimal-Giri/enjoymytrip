@@ -4,7 +4,7 @@
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
-* a{
+* a{ 
     text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6{
@@ -602,7 +602,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .PackSliderImg{
     width: 225px;
-    height: 210px;      
+    height: 215px;      
     object-fit: cover;
     vertical-align: text-top;
     border-radius: 25px;

@@ -4,7 +4,7 @@
         /*  Responsive  */
 @media (max-width: 1025px) {
     .logo{
-        font-size: 2rem;
+        font-size: 1.875rem;
     }
     #Logo{
         height: 50px;
@@ -31,7 +31,8 @@
         /* box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075); */
     }
     .menu-icon {
-        display: block;        
+        display: block;
+        padding: 6px 12px;       
     }
     .navber_ms{       
         border-top: 1px solid #a5a3a3;        

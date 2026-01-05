@@ -594,21 +594,28 @@ h1, h2, h3, h4, h5, h6{
 .pack-horizontal-swiper{
     display: flex;
     gap: 16px;
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow-x: auto;
 }
 .pack-slider-boxs{
     /* width: 225px; */
     height: 100%;
 }
 .PackSliderImg{
-    width: 225px;
-    height: 215px;      
+    width: 230px;
+    height: 220px;      
     object-fit: cover;
     vertical-align: text-top;
     border-radius: 25px;
     /* aspect-ratio: 6 / 7; */
 }
-
+.h3-text{
+    font-size: 1rem;
+    color: #212529;
+    font-weight: 600;
+    text-align: center;
+    margin-top: .5rem;
+}
 
 
             /* Domestic & International Packages Slider End */

@@ -556,7 +556,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
             /* Domestic & International Packages Slider Start */
-        /* Domestic */
+        
 .pack-slider-container{
     position: relative;
 }
@@ -611,20 +611,60 @@ h1, h2, h3, h4, h5, h6{
 }
 .h3-text{
     font-size: 1rem;
-    color: #212529;
+    color: #010e26;
     font-weight: 600;
     text-align: center;
     margin-top: .5rem;
 }
 
-
+.International-Pack{
+    margin-top: 3rem;
+}
             /* Domestic & International Packages Slider End */
 
-
                     /**  Our Service End  **/
+                    /**  Recent Trips Start  **/
+
+.my-py-4{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #e5e5f6;
+}
+.recent-trips-container{
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;    
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+}
+.app-logo{
+    width: 80px;
+    height: 80px;
+    mix-blend-mode: darken;    
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.recent-trip-para{
+    max-width: 56rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4b5563;
+    margin-top: .75rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;    
+}
 
 
 
+
+                    /**  Recent Trips End  **/
 
 
                     /**  footer Start  **/

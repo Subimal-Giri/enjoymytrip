@@ -11,6 +11,11 @@
         width: 50px;
     }    
 }
+@media (max-width: 768px) {
+    .logo{
+        font-size: 1.75rem;
+    }
+}
         /*  Responsive  */
 @media (max-width: 1025px) {
 
@@ -32,7 +37,7 @@
     }
     .menu-icon {
         display: block;
-        padding: 6px 12px;       
+        padding: 5px 10px;       
     }
     .navber_ms{       
         border-top: 1px solid #a5a3a3;        
@@ -61,6 +66,11 @@
         padding: 10px 0px;   
         /* margin: 0px; */
     }    
+}
+@media (max-width: 768px) {
+    .navber{
+        padding: 15px 18px;
+    }
 }
 
                 /**   Navber End  **/

@@ -142,15 +142,16 @@
                 /**  Our Service End  **/
 
 
+                /**  Testimony Start  **/
+        /* Responsive of counters-wrapper */
+@media (max-width: 496px) {
+    .counter-card{
+        width: 100%;
+        padding: 30px 15px;
+    }
+}
 
-
-
-
-
-
-
-
-
+                /**  Testimony End  **/
 
                 /**  footer Start  **/
 

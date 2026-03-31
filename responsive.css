@@ -139,8 +139,35 @@
         width: 100%;
     }
 }
-                /**  Our Service End  **/
 
+            /* Domestic & International Packages Slider Start */
+    /* Responsive of Slider */
+@media (max-width: 768px) {    
+    .PackSliderImg {
+        width: 175px;        
+    }    
+}
+@media (max-width: 480px) {    
+    .PackSliderImg {        
+        width: 160px;
+    }    
+}
+            /* Domestic & International Packages Slider End */
+
+                /**  Our Service End  **/
+                /* Recent Trips Start */
+    /* Responsive of Slider */
+@media (max-width: 768px) {
+    .RecentSliderImg {
+        width: 175px;        
+    }    
+}
+@media (max-width: 480px) {
+    .RecentSliderImg {
+        width: 160px;        
+    }    
+}
+                /* Recent Trips End */
 
                 /**  Testimony Start  **/
         /* Responsive of counters-wrapper */
@@ -150,7 +177,6 @@
         padding: 30px 15px;
     }
 }
-
                 /**  Testimony End  **/
 
                 /**  footer Start  **/

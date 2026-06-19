@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6{
                     /**  Hero Slid Start  **/
 
 .hero-slid{
-    background-image: url("Images/HeroSlid2.jpg");
+    background-image: url("../Images/HeroSlid2.jpg");
     /* height: 500px; */
     height: 80vh;
     /* width: 100vw; */

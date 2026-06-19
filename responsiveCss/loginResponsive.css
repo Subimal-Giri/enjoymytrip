@@ -1,0 +1,103 @@
+
+@media (max-width: 830px) {
+    .container{
+        width: 800px;
+        /* height: 100%; */
+        min-height: 530px;
+    }
+    .title{
+        font-size: 2rem;
+    }    
+    .social-text{
+        font-size: 14px;
+    }
+    form{
+        padding: 0rem 3.5rem;
+    }
+    .input-field {
+        height: 50px;
+    }
+    .toogle-title{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        border-radius: unset;
+        width: 100%;
+        min-height: 100vh;        
+    }
+    .form-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        right: 0;
+    }
+    .signIn-signUp {
+        position: relative;
+        width: 100%;
+        height: auto;
+        opacity: 1 !important;
+        transform: none !important;
+    }
+    form {
+        padding: 2rem 1.5rem;
+    }
+
+        /* Hide fancy animation panel */
+    .toogle-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 0;
+        border-radius: 150px 0;
+    }
+    .container.active .toogle-container{
+        border-radius: 0 150px;
+    }
+    .toogle {
+        width: 100%;
+        left: 0;
+        transform: none !important;
+        padding: 20px 0;
+    }
+    .toogle-panel {
+        position: relative;
+        width: 100%;        
+        padding: 10px;
+        transform: none !important;
+    }   
+
+        /* Hide one form at a time */
+    .sign-up {
+        display: none;
+    }
+    .container.active .sign-up {
+        display: block;
+    }
+    .container.active .sign-in {
+        display: none;
+    }
+
+    .toogle-left {
+        display: none;
+    }
+    .container.active .toogle-left {
+        display: block;
+    }    
+    .container.active .toogle-right {
+        display: none;
+    }
+
+    .container.active .toogle-container{
+        /* transform: translateX(-100%); */
+        left: 100%;
+    }
+   
+}
+
+

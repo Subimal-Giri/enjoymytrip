@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  Google Web Fonts styles  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+            <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./responsiveCss/loginResponsive.css">
+    <title>Sign in & Sign up Form</title>
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="background-overlay"></div>
+        <div class="container">
+            <div class="form-container">    
+                    <!-- Sign In Form -->
+                <div class="signIn-signUp sign-in">
+                    <form action="">
+                        <h1 class="title">Sign In</h1>
+                        <div class="input-field">
+                            <input type="text" placeholder="Username or email" required>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" id="loginPassword" placeholder="Password" required>
+                            <i class="fa-solid fa-eye toggle-eye" id="loginEye"></i>
+                        </div>
+                        <button class="submit-btn">Login</button>
+                        <p class="forgot-password"><a href="" class="forgot-password-link">Forgot Password?</a></p>
+                        <p class="social-text">Or Sign up with social platforms</p>
+                        <div class="social-media">
+                            <a href="#" class="social-icon"><i class="fa-brands fa-google"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </form>
+                </div>
+
+                    <!-- Sign Up Form -->
+                <div class="signIn-signUp sign-up">
+                    <form action="">
+                        <h1 class="title">Sign Up</h1>
+                        <div class="input-field">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="input-field">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" id="signupPassword" placeholder="Create Password" required>
+                            <i class="fa-solid fa-eye toggle-eye" id="signupEye"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                            <i class="fa-solid fa-eye toggle-eye" id="confirmEye"></i>
+                        </div>
+                        <button class="submit-btn">Sign Up</button>
+                        <p class="social-text">Or Sign up with social platforms</p>
+                        <div class="social-media">
+                            <a href="#" class="social-icon"><i class="fa-brands fa-google"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </form>
+                </div>            
+            </div>
+            
+                    <!-- toogle-container -->
+            <div class="toogle-container">
+                <div class="toogle">
+                    <div class="toogle-panel toogle-left">
+                        <h1 class="toogle-title">Welcome User!</h1>
+                        <p class="social-text">If you already have an account</p>
+                        <button class="hidden" id="login">Sign In</button>
+                    </div>
+                    <div class="toogle-panel toogle-right">
+                        <h1 class="toogle-title">Hello, User!</h1>
+                        <p class="social-text">If you don't have an account</p>
+                        <button class="hidden" id="register">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/login.js"></script>
+</body>
+</html>
